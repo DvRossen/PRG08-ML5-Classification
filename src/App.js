@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import { LandingPage } from "./screens/landingPage.js";
+import { ExplainPage } from "./screens/explainPage.js";
+import React, { useState } from "react";
 
 function App() {
+  const [page, setPage] = useState(0);
+  console.log(page === 0);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      {page === 0 ? (
+        <LandingPage setState={setPage} />
+      ) : page === 1 ? (
+        <ExplainPage setState={setPage} />
+      ) : (
+        console.log(page)
+      )}
+    </React.Fragment>
   );
 }
 
