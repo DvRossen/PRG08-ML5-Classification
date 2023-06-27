@@ -6,7 +6,7 @@ export function ExplainPage({ setState }) {
     <div className="Container">
       <div className="display-field">
         <button className="bck-btn" onClick={() => setState(0)}>
-          {`<`} Back
+          Back
         </button>
         <div className="Card">
           <h1>Other page</h1>

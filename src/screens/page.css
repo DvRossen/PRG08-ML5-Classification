@@ -41,15 +41,19 @@
   margin-bottom: 1rem;
   display: flex;
   align-self: flex-start;
-  color:#888;
+  color:#fff;
   font-size: 1rem;
-  border:solid 1px #888;
+  background: #888;
   border-radius: 5px;
   text-align: center;
+  border: solid 1px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 .bck-btn:hover{
-  color:#fff;
-  background: #888;
+  color:#888;
+  background: #fff;
+  border:solid 1px #888;
 }
 
 
