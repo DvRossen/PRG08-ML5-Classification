@@ -1,4 +1,6 @@
 .Container {
+  margin-top:2rem;
+  margin-bottom:2rem;
   text-align: center;
   background-color: #fff;
   display: flex;
@@ -12,6 +14,33 @@
   min-width: 85vw;
   
 
+}
+
+.front-page-button{
+width: 10rem;
+margin-top: 1rem;
+color:#fff;
+font-size: 1rem;
+background: #888;
+border-radius: 5px;
+text-align: center;
+border: solid 1px;
+}
+.front-page-button:hover{
+  color:#888;
+  background: #fff;
+  border:solid 1px #888;
+}
+
+.VideoDiv{
+  display: flex;
+  justify-content: center;
+}
+.LabelDiv{
+  background-color: #888;
+  margin-top: 1rem;
+  border-radius: 10px;
+  color: #fff;
 }
 .Card{
   color:#fff;

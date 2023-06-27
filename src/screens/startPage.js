@@ -72,11 +72,10 @@ export function StartPage({ setState }) {
   return (
     <div className="Container">
       <div className="display-field">
+        <button className="bck-btn" onClick={() => setState(0)}>
+          Back
+        </button>
         <div className="Card">
-          <button className="bck-btn" onClick={() => setState(0)}>
-            Back
-          </button>
-
           <h1>Classify fruit</h1>
 
           <div ref={sketchRef}>
@@ -89,7 +88,7 @@ export function StartPage({ setState }) {
             <h1>Geen fruit in de buurt</h1>
           )}
         </div>
-        <div ref={sketchRef}>
+        <div ref={sketchRef} className="LabelDiv">
           <table style={{ margin: "auto" }}>
             <thead>
               <tr>
