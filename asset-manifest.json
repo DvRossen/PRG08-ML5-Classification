@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/PRG08-ML5-Classification/static/css/main.7893ea39.css",
+    "main.js": "/PRG08-ML5-Classification/static/js/main.8f70b25c.js",
+    "static/js/787.23c27c75.chunk.js": "/PRG08-ML5-Classification/static/js/787.23c27c75.chunk.js",
+    "index.html": "/PRG08-ML5-Classification/index.html",
+    "main.7893ea39.css.map": "/PRG08-ML5-Classification/static/css/main.7893ea39.css.map",
+    "main.8f70b25c.js.map": "/PRG08-ML5-Classification/static/js/main.8f70b25c.js.map",
+    "787.23c27c75.chunk.js.map": "/PRG08-ML5-Classification/static/js/787.23c27c75.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7893ea39.css",
+    "static/js/main.8f70b25c.js"
+  ]
+}
