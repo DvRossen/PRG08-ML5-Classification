@@ -1,7 +1,6 @@
 import "./page.css";
 
 export function LandingPage({ setState }) {
-  console.log("landing");
   return (
     <div className="Container">
       <div className="Card TitleCard">

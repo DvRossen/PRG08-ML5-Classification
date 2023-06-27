@@ -1,7 +1,6 @@
 import "./page.css";
 
 export function ExplainPage({ setState }) {
-  console.log("explain");
   return (
     <div className="Container">
       <div className="display-field">
